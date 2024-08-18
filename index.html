@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="weather-app">
+        <div class="city-name" id="city">
+            <h1></h1>
+            <div class="temp" id="temp"></div>
+            <div class="condition" id="condition"></div>
+            <div class="high-low" id="highlow">H: XX° L: XX°</div>
+        <div class="hourly-forcast" id="hourly">
+            <!-- <div class="hourly-weather">
+                <h5>Now</h5>
+                <img src="" alt="">
+                <p>20</p> </div>-->
+        </div>
+        <div class="forecast-container">
+            <div class="header">
+                <h2>4-DAY FORECAST</h2>
+            </div>
+            <div class="forecast-row">
+                <span class="day">Today</span>
+                <span class="icon"><i class="fa-solid fa-cloud"></i></span>
+                <span class="temperature">28°</span>
+                <div class="temperature-bar">
+                    <div class="bar-fill" style="width: 30%;"></div>
+                </div>
+                <span class="temperature-max">36°</span>
+            </div>
+            <div class="forecast-row">
+                <span class="day">Tue</span>
+                <span class="icon"><i class="fa-solid fa-cloud-showers-water"></i></span>
+                <span class="temperature">29°</span>
+                <div class="temperature-bar">
+                    <div class="bar-fill" style="width: 40%;"></div>
+                </div>
+                <span class="temperature-max">34°</span>
+            </div>
+            <div class="forecast-row">
+                <span class="day">Wed</span>
+                <span class="icon"><i class="fa-solid fa-cloud-moon"></i></span>
+                <span class="temperature">32°</span>
+                <div class="temperature-bar">
+                    <div class="bar-fill" style="width: 40%;"></div>
+                </div>
+                <span class="temperature-max">38°</span>
+            </div>
+            <div class="forecast-row">
+                <span class="day">Thur</span>
+                <span class="icon"><i class="fa-solid fa-cloud-rain"></i></span>
+                <span class="temperature">25°</span>
+                <div class="temperature-bar">
+                    <div class="bar-fill" style="width: 50%;"></div>
+                </div>
+                <span class="temperature-max">39°</span>
+            </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
